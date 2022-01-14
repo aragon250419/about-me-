@@ -1,4 +1,27 @@
+
+/*menu*/
+
+/*header*/
+/*main*/
+/*footer*/
+
+
 h1{
     background-color: cadetblue;
     color: black;
+    text-align: center;
+}
+
+
+#insta{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
 }
