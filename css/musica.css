@@ -8,3 +8,42 @@
 body{
     background-color: rgb(202, 200, 198);
 }
+
+
+/*NAV*/
+
+#inicio,#games{
+    display: inline-block;
+}
+#inicio,#games{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.listauno{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(123, 131, 143);
+}
+#inicio::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/ramen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+#games::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/juegos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}

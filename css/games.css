@@ -8,3 +8,50 @@
 body{
     background-color: rgb(202, 200, 198);
 }
+
+
+/*NAV*/
+#inicio,#musica{
+    display: inline-block
+    ;
+}
+#inicio,#musica{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.listadouno{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(123, 131, 143);
+}
+#inicio::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/ramen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+#musica:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/ondas-sonoras.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+
+
+/*MAIN*/
+
+main{
+    text-align: center;
+}
