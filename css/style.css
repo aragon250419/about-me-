@@ -5,22 +5,71 @@
 /*main*/
 /*footer*/
 
-
-h1{
-    background-color: cadetblue;
-    color: black;
-    text-align: center;
+body{
+    background-color: rgb(202, 200, 198);
+}
+.listadouno{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-
-#uno::before{
+.games::before{
     content: '';
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url(../img/instagram.png);
+    background-image: url(../img/juegos.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-right: 5px;
 }
+.musica::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/ondas-sonoras.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+h1{
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+}
+main,img{
+    text-align: center;
+}
+
+.listadodos{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#insta::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/instagram\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+#github:before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/github.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
