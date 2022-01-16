@@ -8,12 +8,22 @@
 body{
     background-color: rgb(202, 200, 198);
 }
+
+
+/*NAV*/
+.games,.musica{
+    display: inline-block;
+}
+.games,.musica a{
+    padding: 10px 20px;
+    display: inline-block;
+}
 .listadouno{
     list-style: none;
     margin: 0px;
     padding: 0px;
+    background-color: rgb(123, 131, 143);
 }
-
 .games::before{
     content: '';
     display: inline-block;
@@ -34,8 +44,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-right: 5px;
+    margin-right: -11px;
 }
+ 
+ 
+
+ /*MAIN*/
 h1{
     background-color: cadetblue;
     color: black;
