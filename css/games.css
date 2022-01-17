@@ -11,21 +11,20 @@ body{
 
 
 /*NAV*/
-#inicio,#musica{
-    display: inline-block
-    ;
+.inicio,.musica{
+    display: inline-block;
 }
-#inicio,#musica{
+.inicio,.musica{
     padding: 10px 20px;
     display: inline-block;
 }
-.listadouno{
+#listadouno{
     list-style: none;
     margin: 0px;
     padding: 0px;
     background-color: rgb(123, 131, 143);
 }
-#inicio::before{
+.inicio::before{
     content: '';
     display: inline-block;
     width: 25px;
@@ -36,7 +35,7 @@ body{
     background-size: cover;
     margin-right: 5px;
 }
-#musica:before{
+.musica:before{
     content: '';
     display: inline-block;
     width: 25px;
