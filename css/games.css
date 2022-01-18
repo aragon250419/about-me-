@@ -11,6 +11,22 @@ body{
 
 
 /*NAV*/
+
+.inicio:hover{
+    background-color: rgb(179, 192, 206);
+}
+.musica:hover{
+    background-color: rgb(179, 192, 206);
+}
+.inicio a{
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    
+}
+.musica a{
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+}
 .inicio,.musica{
     display: inline-block;
 }

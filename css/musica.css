@@ -12,6 +12,20 @@ body{
 
 /*NAV*/
 
+.inicio:hover{
+    background-color: rgb(179, 192, 206);
+}
+.games:hover{
+    background-color: rgb(179, 192, 206);
+}
+.games a{
+    text-decoration: none;
+    color:  rgb(31, 29, 29);
+}
+.inicio a{
+    text-decoration: none;
+    color:  rgb(31, 29, 29);   
+}
 .inicio,.games{
     display: inline-block;
 }
