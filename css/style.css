@@ -18,7 +18,10 @@ body{
     padding: 0px;
     background-color: rgb(123, 131, 143);
 }
-.games,.musica{
+.musica{
+    display: inline-block;
+}
+.games{
     display: inline-block;
 }
 .musica:hover{
@@ -30,12 +33,31 @@ body{
 .games{
     padding: 10px 20px;
     display: inline-block;
-    text-decoration: none;
 }
 .musica{
     padding: 10px 20px;
     display: inline-block;
 }
+.games a{
+    text-decoration: none;
+    color: black;
+}
+.musica a{
+    text-decoration: none;
+    color: black;
+}
+.musica::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/juegos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
 
 
 
