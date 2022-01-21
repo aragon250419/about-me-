@@ -70,3 +70,6 @@ body{
 main{
     text-align: center;
 }
+ul{
+    list-style: none;
+}
