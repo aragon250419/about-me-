@@ -1,9 +1,9 @@
 
-/*menu*/
+/*MENU*/
 
-/*header*/
-/*main*/
-/*footer*/
+/*HEADER*/
+/*MAIN*/
+/*FOOTER*/
 
 body{
     background-color: rgb(202, 200, 198);
@@ -24,10 +24,16 @@ body{
 .games{
     display: inline-block;
 }
+.youtube{
+    display: inline-block;
+}
 .musica:hover{
     background-color: rgb(179, 192, 206);
 }
 .games:hover{
+    background-color: rgb(179, 192, 206);
+}
+.youtube:hover{
     background-color: rgb(179, 192, 206);
 }
 .games{
@@ -35,6 +41,10 @@ body{
     display: inline-block;
 }
 .musica{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.youtube{
     padding: 10px 20px;
     display: inline-block;
 }
@@ -46,7 +56,10 @@ body{
     text-decoration: none;
     color: black;
 }
-
+.youtube a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
