@@ -5,6 +5,12 @@
 /*MAIN*/
 /*FOOTER*/
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(202, 200, 198);
 }
@@ -18,15 +24,15 @@ body{
 }
 .inicio a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .games a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);         
 }
 .musica a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
