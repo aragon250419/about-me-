@@ -1,15 +1,15 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*MENU*/
 
 /*HEADER*/
 /*MAIN*/
 /*FOOTER*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 body{
     background-color: rgb(202, 200, 198);
@@ -18,9 +18,9 @@ body{
 /*NAV*/
 
 #listadouno{
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
 }
 .inicio a{
     text-decoration: none;

@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*MENU*/
 
 /*HEADER*/
@@ -36,8 +40,6 @@ body{
 }
 #listadouno{
     list-style: none;
-    margin: 0px;
-    padding: 0px;
     background-color: rgb(123, 131, 143);
 }
 .inicio::before{
